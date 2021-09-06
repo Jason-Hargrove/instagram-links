@@ -1,0 +1,19 @@
+{
+  "engines": {
+    "node": "14.17.0"
+  },
+  "name": "instagram-link",
+  "version": "1.0.0",
+  "description": "I’m a Software Engineer with a background in fine art. I tackle hidden problems by throwing myself into my work, finding connections between unrelated things, and turning my thoughts into something real. I believe the fear of the unknown can be overcome with a well designed product, and I’m passionate about presenting it in a unique way. My background in graphic design and my experience as a street artist enables me to approach each project with a spirit for communicating graphically to provoke a reaction.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Jason Hargrove",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

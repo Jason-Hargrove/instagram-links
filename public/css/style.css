@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;0,900;1,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(rgba(10, 10, 10, 0.5), rgba(255, 255, 0, .1)), url("../img/trefoil-circle.jpg");
+}
+
+a {
+  text-align: center;
+}
+
+.photo {
+  width: 35%;
+  border: 2px solid grey;
+  border-radius: 50%;
+}
+
+.photo:hover {
+  opacity: 0.3;
+}
+
+.sig {
+  width: 40%;
+}
+
+.sig:hover {
+  opacity: 0.3;
+}
+
+button {
+  padding: 1em 2em;
+  border: 0.1em solid white;
+  background-color: yellow;
+  box-shadow: none;
+  color: magenta;
+  margin: 0 0.2em 0.2em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  font-weight: 300;
+  text-shadow: 0.04em 0.04em 0.04em rgba(0, 0, 0, 0.40);
+  transition: all 0.15s;
+  width: 130px;
+}
+
+button:hover {
+  color: orange;
+  text-shadow: none;
+  border-color: magenta;
+}
+
+@media (min-width: 768px) {
+  .photo {
+    width: 20%;
+  }
+
+  .sig {
+    width: 30%;
+  }
+}
